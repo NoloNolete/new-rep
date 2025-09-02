@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Modificar texto de title de acuerdo a contenido -->
+  <title>Akira Café</title>
+  <!-- Modificar content="" de acuerdo a contenido -->
+  <meta name="description" content="Akira Café">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <header class="site-header" role="banner">
+    <div class="container">
+      <!-- Poner nombre de proyecto -->
+      <a class="brand" href="index.html">Akira Café</a>
+      <nav class="site-nav" aria-label="Principal">
+        <ul>
+          <li><a href="index.html" aria-current="page">Inicio</a></li>
+          <!-- Agregar a continuación el elemento Proyecto -->
+          <li><a href="contacto.html">Contacto</a></li>
+          <li><a href="proyecto.html" >Proyecto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido" tabindex="-1">
+    <section class="hero container">
+      <h1>Cafe de especialidad</h1>
+      <p>Akira es una cafetería de especialidad que combina diseño minimalista y cultura contemporánea para ofrecer una experiencia única. Su propuesta se centra en cafés seleccionados de origen, preparados con técnicas precisas.</p>
+      <!-- link a proyecto.html -->
+      <div class="buttons">
+        <a class="button" href="proyecto.html" >Proyecto</a>
+        <a class="button" href="contacto.html" >Contacto</a>
+      </div>
+    </section>
+
+    <section class="features container">
+      <h2>Caracteristicas del proyecto</h2>
+      <div class="grid">
+        <article class="card">
+        <img class="card-img" src="assets/cafe1.jpg" width="600" height="400" alt="aguante el cafe">
+        <div class="card-body">
+          <h3>El Mejor Café</h3>
+          <p>Con granos seleccionados especialmente para vos.</p>
+          </div> 
+        </article>
+        <article class="card">
+          <img class="card-img" src="assets/cafe2.jpg" width="600" height="400" alt="el cafe mas rico">
+          <div class="card-body">
+          <h3>Café de especialidad</h3>
+          <p>Un servicio excepcional.</p>
+          </div>
+        </article>
+        <article class="card">
+          <img class="card-img" src="assets/cafe3.jpg" width="600" height="400" alt="Mira que facha.">
+          <div class="card-body">
+          <h3>Café de especialidad</h3>
+          <p>Mira que facha.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+    <!-- Agregarle una clase a la seccion que se llame "social-proof container" -->
+    <section class="social-proof container">
+      <h2>Resultados</h2>
+      <ul class="kpis" role="list">
+        <li><strong>+38%</strong> más ventas</li>
+        <li><strong>‑32%</strong> tiempo de espera</li>
+        <li><strong>AA</strong> certificación del CoffeWorld INC</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="anio">2025</span> Akira Café<span class="u-visually-hidden">Todos los derechos reservados.</span></p>
+    </div>
+  </footer>
+</body>
+</html>
